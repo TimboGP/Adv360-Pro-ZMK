@@ -10,6 +10,12 @@ label = "macro_screenshot_rect";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LSHFT &kp LEFT_COMMAND>, <&macro_tap &kp NUMBER_4>, <&macro_release &kp LSHFT &kp LEFT_COMMAND>;
 };
+macro_hs_portal: macro_hs_portal{
+compatible = "zmk,behavior-macro";
+label = "macro_hs_portal";
+#binding-cells = <0>;
+bindings = <&macro_press &kp LCTRL &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp P>, <&macro_release &kp LCTRL &kp LEFT_ALT &kp LEFT_COMMAND>;
+};
 macro_app_switch: macro_app_switch{
 compatible = "zmk,behavior-macro";
 label = "macro_app_switch";
