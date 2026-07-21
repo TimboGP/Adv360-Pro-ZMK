@@ -10,11 +10,11 @@ label = "macro_screenshot_rect";
 #binding-cells = <0>;
 bindings = <&macro_press &kp LSHFT &kp LEFT_COMMAND>, <&macro_tap &kp NUMBER_4>, <&macro_release &kp LSHFT &kp LEFT_COMMAND>;
 };
-macro_hs_portal: macro_hs_portal{
+macro_shortcat: macro_shortcat{
 compatible = "zmk,behavior-macro";
-label = "macro_hs_portal";
+label = "macro_shortcat";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LCTRL &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp P>, <&macro_release &kp LCTRL &kp LEFT_ALT &kp LEFT_COMMAND>;
+bindings = <&macro_press &kp LCTRL &kp LSHFT &kp LEFT_ALT &kp LEFT_COMMAND>, <&macro_tap &kp S>, <&macro_release &kp LCTRL &kp LSHFT &kp LEFT_ALT &kp LEFT_COMMAND>;
 };
 macro_hs_cheatsheet: macro_hs_cheatsheet{
 compatible = "zmk,behavior-macro";
